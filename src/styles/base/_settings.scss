@@ -1,0 +1,42 @@
+//colors
+$dark-blue: #364051;
+$gold: #fcaf01;
+$dark-grey: #333333;
+$grey: #666;
+$blue: #1c88bf;
+$sky: rgba(142, 199, 252, 0.4);
+$light: rgba(230, 224, 224, 0.95);
+$off-white: #f7f7f7; 
+$cream: rgba(199, 194, 119, 0.9);
+$mud: rgba(44, 42, 19, 0.6);
+
+:root
+{
+    --theme-color: rgb(255, 255, 255, 0);
+}
+
+// font size
+$font-size-xlarge: 2.1rem;
+$font-size-large: 1.8rem;
+$font-size-small: 1.4rem;
+
+// font spacing
+$medium: 1.6rem;
+$large: 3.2rem;
+$extra: 4.8rem;
+$small: 1.2rem;
+
+//Responsive Modes
+$break-point: 45rem;
+$landscape: 768px;
+
+//fonts
+$Abel: 'Abel', cursive;
+$Anton: "Anton", cursive;
+$Josefin: "Josefin", cursive;
+$Lexend: "Lexend", cursive;
+$Livvic: "Livvic", cursive;
+$Montserrat: "Montserrat", cursive;
+$Rune: "RuneSlasher", cursive;
+$Norse: "NorseFont", cursive;
+$Metrophobic: "Metrophobic", cursive;

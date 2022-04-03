@@ -1,0 +1,93 @@
+.lister
+{
+    box-sizing: border-box;
+    background: transparent;
+    border-radius: 4px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    padding: $small;
+    margin: 0;
+    width: auto;
+    max-height: 80vh;
+    
+    @media (max-width: $break-point) {
+        max-height: 50vh;
+        overflow: hidden;
+    }
+}
+
+.lister > div 
+{
+    width: 100%;
+    border: none;
+    color: $gold;
+}
+
+.list_container 
+{
+    background: transparent;
+    // border: 2px solid rgba(255, 0, 0, 0.3);
+    margin: .7rem;
+    width: 250px;
+    position: relative;
+}
+
+.list_name
+{
+    text-align: left;
+    background: rgba(44, 42, 19, 0.4);
+    border-top: 3px solid rgba(199, 194, 119, 0.7);
+    border-radius: 4px;
+    height: 28px;
+    padding: 0.4rem;
+    font-family: $Abel;
+    color: $cream;
+     display: flex;
+     align-items: center;
+}
+
+.list_input
+{
+    padding: 0.2rem;
+    height: 40px;
+    color: $cream;
+    background: url('/img/main.png');
+    border-radius: 4px;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+}
+
+.lister__btn
+{
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: $cream;
+}
+
+
+
+
+
+//Scroll Behaviour
+.dataScroll {
+    overflow-y: scroll;
+    scroll-behavior: auto;
+}
+
+.dataScroll::-webkit-scrollbar {
+    width: $medium;
+}
+
+
+
+
+// controller flex;
+.view > div
+{
+    width: 100%;
+    display: flex;
+}

@@ -1,0 +1,211 @@
+.page
+{
+    background: $off-white;
+    font-family: $Montserrat;
+    position: absolute;
+    width: 100%;
+}
+
+.mango
+{
+    background: $off-white;
+    width: 100%;
+    letter-spacing: 1px;
+}
+
+.mango > div
+{
+    align-items: center;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    margin: $small;
+    height: 150px;
+    border: .3px solid rgb(228, 222, 222);
+    justify-content: center;
+    font-size: x-small;
+}
+
+.book
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: x-small;
+    cursor: pointer;
+    
+}
+
+.book:hover
+{
+    background: $light;
+    border: .3px solid rgb(228, 222, 222);
+}
+
+.book-link
+{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.mission {
+    background: whitesmoke;
+    width: 100%;
+}
+
+.mission > div {
+    border: .3px solid rgb(228, 222, 222);
+    padding: $small;
+    margin: $small;
+}
+
+.mission-text {
+    text-transform: uppercase;
+}
+
+.mission-text > div
+{
+    color: #aaa6a6;
+    font-size: x-small;
+}
+.community
+{
+    width: auto;
+    height: 400px;
+    background: $sky;
+    border-radius: 6px;
+}
+
+.community > img
+{
+    position: relative;
+    width: auto;
+    height: 400px;
+}
+
+.sign
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    transition: .5s ease;
+}
+
+.sign:hover
+{
+    background: $light;
+}
+
+.sign > a
+{
+    position: relative;
+    font-size: x-small;
+    text-decoration: none;
+    letter-spacing: 2px;
+    background: none;
+    text-align: center;
+    color: $dark-blue;
+    transition: .5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.drop
+{
+    border: 1px solid $light;
+    padding: $small;
+    margin: $small;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ 
+   @media (max-width: $break-point)
+    {
+        background: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.drop > div
+{
+    position: relative;
+    width: 100%;
+    @media (max-width: $break-point)
+    {
+        margin: $small;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.explore
+{
+    color: black;
+    list-style-type: none;
+
+    @media (max-width: $break-point) {
+        border-bottom: .3px solid $light;
+    }
+}
+
+.explore a 
+{
+    text-decoration: none;
+    color: $dark-grey;
+}
+
+.explore li
+{
+    color: $dark-grey;
+    font-family: $Abel;
+    cursor: pointer;
+    font-size: x-small;
+}
+
+.footer-mountain
+{
+    padding: $small;
+    border: 1px solid $light;
+    margin: $small;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.thin
+{
+    color: $light;
+    font-size: x-small;
+}
+
+.copyright
+{
+    font-size: xx-small;
+}
+.logo
+{
+    display: flex;
+    height: auto;
+    width: auto;
+    // border: .3px solid rgb(228, 222, 222);
+    $padding: $small;
+    flex-direction: row;   
+    justify-content: space-evenly;   
+}
+
+.logo .image img
+{
+    position: relative;
+    width: auto;
+    height: 80px;
+}

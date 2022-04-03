@@ -1,0 +1,51 @@
+.nameTag
+{
+    border-left: 3px solid $off-white;
+    font-size: $large;
+    letter-spacing: 6px;
+}
+
+.frame-box 
+{
+    background: transparent;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.frame-box > div > div
+{
+    box-sizing: border-box;
+    display: flex;
+    letter-spacing: 1px;
+    flex-direction: column;
+    margin: $small;
+    text-align: center;
+    width: auto;
+}
+
+.frame-box > div > div > span
+{
+    color: $gold;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border-left: 2px solid $off-white;
+    background: transparent;
+    background-repeat: none;
+    font-family: $Norse;
+    font-size: $medium;
+    letter-spacing: 2px;
+    opacity: .89;
+    text-align: center;
+    padding: $small;
+    width: inherit;
+}
+
+.frame-box > div > div:nth-child(1) > span
+{
+    border: none;
+}
+
+.frame-box > div > div > code
+{
+    font-family: $Montserrat;
+}

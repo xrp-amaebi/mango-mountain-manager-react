@@ -1,0 +1,99 @@
+
+.button
+{
+    background: none;
+    border-left: 4px solid $off-white;
+    border-radius: 5px;
+    color: $off-white;
+    cursor: pointer;
+    display: flex;
+    font-family: $Abel;
+    font-size: $font-size-small;
+    font-weight: 300;
+    letter-spacing: .7px;
+    line-height: 2;
+    padding: 0.5rem;
+    text-decoration: none;
+    transition: .4s animate ease-in-out ;
+}
+
+.button > option
+{
+    background: rgba(0, 0, 0, 1);
+    border: none;
+    color: $off-white;
+    font-weight: 300;
+    margin-bottom: $small;
+    letter-spacing: 2px;
+}
+
+.button-handle
+{
+    box-sizing: border-box;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.3), 
+                    rgba(12, 12, 34, 0.3), 
+                    rgba(0, 0, 0, 0.3));
+    border-radius: 6px;
+    border-right: 3px solid $off-white;
+    display: flex;
+    flex-direction: row;
+    font-family: $Rune;
+    font-size: $medium;
+    height: auto;
+    justify-content: space-evenly;
+    padding: $small;
+    margin-bottom: $small;
+    position: relative;
+    top: 0;
+    width: calc(100%);
+    cursor: default;
+    
+}
+
+.button__one
+{
+    align-items: center;
+    background: none;
+    border: none;
+    display: flex;
+    flex-direction: column-reverse;
+    font-family: $Rune;
+    font-size: $medium;
+    letter-spacing: 2px;
+}
+
+.button--link
+{   
+    width: 65px;
+    height: auto;
+    background: none;
+    flex-direction: row-reverse;
+    border: none;
+    margin-right: $large;
+
+    @media (max-width: $break-point) {
+        width: 65px;
+        height: auto;
+        margin-right: 0.1rem;
+    }
+}   
+
+
+//INPUT BUTTONS
+.ps4
+{
+    width: 24px;
+    height: 24px;
+}
+
+.xb1
+{
+    width: 24px;
+    height: 24px;
+}
+
+.universals
+{
+    width: 24px;
+    height: 24px;
+}
